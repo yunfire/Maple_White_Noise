@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapleStory BGM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls-wrapper">
+            <div class="toggle-wrapper">
+                <input type="checkbox" id="toggle" checked>
+                <label for="toggle" class="toggle-label">
+                    <span class="toggle-button"></span>
+                </label>
+            </div>
+            <button id="nextButton" class="next-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M5 5v14l7-7-7-7z M12 5v14l7-7-7-7z" fill="currentColor"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div id="player"></div>
+    
+    <div class="song-info">
+        <div class="song-name-container">
+            <span id="currentSong" class="song-name"></span>
+            <span id="currentSongDup" class="song-name"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
